@@ -14,7 +14,7 @@ export default function ProjectsComponent() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-[#f9fafb] rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300"
+            className="bg-[#f9fafb] rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition duration-300 border-1 border-gray-300"
           >
             {project.image && (
               <img

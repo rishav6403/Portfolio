@@ -29,7 +29,7 @@ export default function Skills() {
   return (
     <section id="skills" className="text-center">
       <h2 className="text-3xl font-semibold mb-6">My Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 max-w-4xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 max-w-5xl mx-auto">
         {skills.map((skill, idx) => (
           <div
             key={idx}

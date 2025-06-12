@@ -8,7 +8,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-white py-10">
+    <section id="contact" className="  bg-white border-t border-gray-300 shadow-md rounded-t-xl px-6 py-10">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-semibold mb-4">Let's Connect</h2>
         <p className="text-gray-600 mb-8">
@@ -50,6 +50,8 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      
     </section>
+    
   );
 }

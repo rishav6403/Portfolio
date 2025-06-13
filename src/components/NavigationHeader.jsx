@@ -4,13 +4,13 @@ const NavigationHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   
   return   <header className="bg-white text-gray-900 shadow-md p-4 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-bold text-gray-900">Rishav Kumar</h1>
        <button
           className="md:hidden text-2xl"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ? "✖️" : "☰"}
+          {menuOpen ? "❌" : "☰"}
         </button>
         <nav
           className={`${

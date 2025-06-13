@@ -49,7 +49,7 @@ export const projects = [
      "A fully responsive fashion e-commerce frontend clone of the Mantra website, built using React. Features product listing, filters, and modern UI design practices.",
     tech: "HTML, CSS, Javascript, Reactjs, Nodejs",
     github: "https://github.com/rishav6403/Myntra-Clone_react",
-    demo: "https://myntra-clone-react-if06.onrender.com",
+    demo: "https://myntra-clone-react-pi-nine.vercel.app",
     image: myntraImg
   }
 ];
